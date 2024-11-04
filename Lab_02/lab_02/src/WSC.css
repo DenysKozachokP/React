@@ -1,0 +1,22 @@
+.window-size {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .window-size h1 {
+    font-size: 1.5em;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .window-size p {
+    font-size: 1.2em;
+    color: #333;
+    margin: 5px 0;
+  }
