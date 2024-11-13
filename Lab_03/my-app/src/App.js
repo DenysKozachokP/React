@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Form1 from './Form1';
-import Form2 from './Form2';
-import Form3 from './Form3';
+import Form1 from './FormComp/Form1';
+import Form2 from './FormComp/Form2';
+import Form3 from './FormComp/Form3';
 
 const App = () => {
   const [formData, setFormData] = useState({});
