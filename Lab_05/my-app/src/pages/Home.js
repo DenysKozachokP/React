@@ -18,10 +18,13 @@ const Home = () => {
             <Link to="/about">About</Link> 
           </li>
           <li>
-            <Link to="/effector-counter">Go to Effector Counter</Link> {/* Додано посилання */}
+            <Link to="/effector-counter">Go to Effector Counter</Link>
           </li>
           <li>
-            <Link to="/list-with-xstate">Go to List with XState</Link> {/* Додано посилання на новий компонент */}
+            <Link to="/list-with-xstate">Go to List with XState</Link> 
+          </li>
+          <li>
+            <Link to="/jotai-counter">Go to Jotai Counter</Link> 
           </li>
         </ul>
       </nav>
