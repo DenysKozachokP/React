@@ -1,0 +1,99 @@
+/* Загальні стилі для тіла */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+  }
+  
+  h1, h2 {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  button {
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Стилі для посилань */
+  a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Стилі для навігації */
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  /* Стилі для форми */
+  form {
+    margin: 20px 0;
+  }
+  
+  form input {
+    padding: 8px;
+    font-size: 14px;
+    width: 250px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  form button {
+    padding: 8px 16px;
+    background-color: #28a745;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  form button:hover {
+    background-color: #218838;
+  }
+  
+  /* Стилі для списку */
+  ul li {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  ul li button {
+    background-color: #dc3545;
+    font-size: 12px;
+  }
+  
+  ul li button:hover {
+    background-color: #c82333;
+  }
+  

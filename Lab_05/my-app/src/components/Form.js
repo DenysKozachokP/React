@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { addItem } from '../features/items/itemsSlice';
+import './App.css';
 
 const Form = () => {
   const [inputValue, setInputValue] = useState('');

@@ -1,6 +1,7 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { removeItem } from '../features/items/itemsSlice';
+import './App.css';
 
 const List = () => {
   const items = useSelector((state) => state.items.items); // Отримуємо список items з Redux store
