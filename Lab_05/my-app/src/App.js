@@ -8,6 +8,8 @@ import Form from './components/Form';
 import List from './components/List';
 import Counter from './features/counter/Counter';
 import CounterEffector from './components/CounterEffector';
+import ListWithXState from './components/ListWithXState'; 
+
 
 const App = () => {
   return (
@@ -20,6 +22,7 @@ const App = () => {
           <Route path="/counter" element={<Counter />} />
           <Route path="/items" element={<div><Form /><List /></div>} />
           <Route path="/effector-counter" element={<CounterEffector />} />
+          <Route path="/list-with-xstate" element={<ListWithXState />} />
         </Routes>
         <Footer />
       </div>

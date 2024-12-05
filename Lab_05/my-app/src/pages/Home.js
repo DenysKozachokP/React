@@ -20,6 +20,9 @@ const Home = () => {
           <li>
             <Link to="/effector-counter">Go to Effector Counter</Link> {/* Додано посилання */}
           </li>
+          <li>
+            <Link to="/list-with-xstate">Go to List with XState</Link> {/* Додано посилання на новий компонент */}
+          </li>
         </ul>
       </nav>
     </div>
