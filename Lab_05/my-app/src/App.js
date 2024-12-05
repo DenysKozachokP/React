@@ -6,7 +6,8 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Form from './components/Form';
 import List from './components/List';
-import Counter from './features/counter/Counter'; // Якщо використовуєте лічильник
+import Counter from './features/counter/Counter';
+import CounterEffector from './components/CounterEffector';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/counter" element={<Counter />} />
           <Route path="/items" element={<div><Form /><List /></div>} />
+          <Route path="/effector-counter" element={<CounterEffector />} />
         </Routes>
         <Footer />
       </div>

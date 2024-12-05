@@ -17,6 +17,9 @@ const Home = () => {
           <li>
             <Link to="/about">About</Link> 
           </li>
+          <li>
+            <Link to="/effector-counter">Go to Effector Counter</Link> {/* Додано посилання */}
+          </li>
         </ul>
       </nav>
     </div>

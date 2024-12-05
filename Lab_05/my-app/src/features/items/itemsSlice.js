@@ -11,10 +11,10 @@ const itemsSlice = createSlice({
         id: Date.now(), // Генерація унікального ID
         text: action.payload,
       };
-      state.items.push(newItem); // Додаємо елемент в список
+      state.items.push(newItem); 
     },
     removeItem: (state, action) => {
-      state.items = state.items.filter(item => item.id !== action.payload); // Видаляємо елемент
+      state.items = state.items.filter(item => item.id !== action.payload);
     },
   },
 });
