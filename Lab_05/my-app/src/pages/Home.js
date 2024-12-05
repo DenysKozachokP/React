@@ -26,6 +26,9 @@ const Home = () => {
           <li>
             <Link to="/jotai-counter">Go to Jotai Counter</Link> 
           </li>
+          <li>
+            <Link to="/tasks">Go to RTK Query Task List</Link> 
+          </li>
         </ul>
       </nav>
     </div>

@@ -1,16 +1,12 @@
 import { configureStore } from '@reduxjs/toolkit';
 import itemsReducer from '../features/items/itemsSlice';
-import { createStore, createEvent } from 'effector';
+import { apiSlice } from '../features/api/apiSlice';
 
-export const addItemEffector = createEvent();
-export const removeItemEffector = createEvent();
-
-
-export const $itemsEffector = createStore([])
-  .on(addItemEffector, (state, item) => [...state, item])
-  .on(removeItemEffector, (state, itemId) => state.filter(item => item.id !== itemId));
 export const store = configureStore({
   reducer: {
     items: itemsReducer,
+    [apiSlice.reducerPath]: apiSlice.reducer, 
   },
+  middleware: (getDefaultMiddleware) =>
+    getDefaultMiddleware().concat(apiSlice.middleware),
 });

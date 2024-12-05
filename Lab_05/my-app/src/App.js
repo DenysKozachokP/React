@@ -10,6 +10,7 @@ import Counter from './features/counter/Counter';
 import CounterEffector from './components/CounterEffector';
 import ListWithXState from './components/ListWithXState'; 
 import CounterJotai from './components/CounterJotai'; 
+import TaskList from './components/TaskList';
 
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
           <Route path="/effector-counter" element={<CounterEffector />} />
           <Route path="/list-with-xstate" element={<ListWithXState />} />
           <Route path="/jotai-counter" element={<CounterJotai />} />
+          <Route path="/tasks" element={<TaskList />} />
         </Routes>
         <Footer />
       </div>
